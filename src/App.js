@@ -113,7 +113,7 @@ const App = () => {
     setResponse(null);
 
     try {
-      const result = await axios.post('https://<your-vercel-deployment-url>/bfhl', {
+      const result = await axios.post('https://bajaj-api-orpin.vercel.app/bfhl', {
         data: JSON.parse(inputData),
       });
       setResponse(result.data);
