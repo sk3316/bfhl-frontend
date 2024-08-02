@@ -16,7 +16,7 @@ function App() {
     e.preventDefault();
     try {
       const data = JSON.parse(jsonInput);
-      const res = await fetch('https://bajaj-api-orpin.vercel.app//bfhl', {
+      const res = await fetch('https://bajaj-api-orpin.vercel.app/bfhl', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
